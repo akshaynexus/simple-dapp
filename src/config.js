@@ -402,6 +402,21 @@ export default Object.freeze({
     VAULT_STATUS: "active",
     CHAIN_ID: 250,
   },
+  fraxfantom: {
+    // route path
+    TITLE: "FRAX Fantom",
+    LOGO: "🏆🚀",
+    VAULT_ABI: yVaultV2,
+    VAULT_TYPE: "yearn",
+    VAULT_ADDR: "0xe3a985F3CE21281c22894883e87f21bd89b7CD4F",
+    WANT_ADDR: "0xdc301622e621166BD8E82f2cA0A26c13Ad0BE355",
+    WANT_SYMBOL: "FRAX",
+    COINGECKO_SYMBOL: "frax",
+    VAULT_DEV: "akshaynexust",
+    BLOCK_ACTIVATED: 1606599919,
+    VAULT_STATUS: "active",
+    CHAIN_ID: 250,
+  },
   devhugger: {
     TITLE: "DEV Hugger",
     LOGO: "👾🤗",
