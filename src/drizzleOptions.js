@@ -10,7 +10,7 @@ const options = (config) => ({
   web3: {
     block: false,
   },
-  syncAlways: true,
+  syncAlways: false,
   contracts:
     config !== null
       ? [
@@ -34,6 +34,7 @@ const options = (config) => ({
   events: {},
   polls: {
     accounts: 10000,
+    blocks: false,
   },
 });
 

@@ -4,6 +4,9 @@ module.exports = {
   },
 
   transpileDependencies: [
-    'vuetify'
+    'vuetify',
+    'ethers',
+    '@noble/curves',
+    '@noble/hashes'
   ]
 }
